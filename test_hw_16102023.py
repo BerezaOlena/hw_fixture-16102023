@@ -42,7 +42,7 @@ class TestAncheadermenu():
         browser.find_element(By.XPATH, "//a[@title='Кошик']")
 
 
-#pytest -s test_hw_16102023.py
+# pytest -s test_hw_16102023.py
 # pytest -s -v -m "smoke" test_hw_16102023.py
 # pytest -s -v -m "search" test_hw_16102023.py
 # pytest -s -v -m "user" test_hw_16102023.py
